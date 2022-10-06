@@ -110,8 +110,13 @@ for i in range(1,101):
 print("수열 = ", su)
 print("누적 합 =", sum)
 '''
-
-
+aa = []
+hap = 0
+for i in range(0,4,1):
+    aa.append(int(input("숫자를 입력하세요:")))
+    hap = hap + aa[i]
+print("합계:%d" %hap)
+print(aa)
 
 
 
